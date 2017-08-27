@@ -1,0 +1,16 @@
+sys
+test_issue6243
+unit_tests
+test_resize_term
+window_funcs
+module_funcs
+os
+test_userptr_without_set
+requires
+stdscr
+tempfile
+curses
+term
+import_module
+main
+unittest

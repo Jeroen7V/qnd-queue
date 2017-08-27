@@ -1,0 +1,16 @@
+ChecksumTestCase
+BaseCompressTestCase
+test_main
+_1G
+CompressObjectTestCase
+choose_lines
+binascii
+precisionbigmemtest
+HAMLET_SCENE
+CompressTestCase
+test_support
+genblock
+ExceptionTestCase
+random
+zlib
+unittest

@@ -1,0 +1,13 @@
+_open_with_retry
+os
+socket
+URLTimeoutTest
+test_support
+urlretrieveNetworkTests
+test_main
+mimetools
+time
+urlopenNetworkTests
+urllib
+sys
+unittest

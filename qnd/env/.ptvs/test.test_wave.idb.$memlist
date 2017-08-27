@@ -1,0 +1,11 @@
+nframes
+test_main
+os
+wave
+nchannels
+framerate
+run_unittest
+TestWave
+TESTFN
+sampwidth
+unittest

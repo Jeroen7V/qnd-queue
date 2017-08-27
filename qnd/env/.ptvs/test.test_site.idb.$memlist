@@ -1,0 +1,16 @@
+sysconfig
+TESTFN
+EnvironmentVarGuard
+copy
+os
+run_unittest
+unittest
+subprocess
+sys
+site
+ImportSideEffectTests
+test_main
+HelperFunctionsTests
+PthFile
+encodings
+__builtin__

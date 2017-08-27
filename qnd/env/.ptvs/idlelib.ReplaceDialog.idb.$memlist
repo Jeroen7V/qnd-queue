@@ -1,0 +1,10 @@
+len
+SearchEngine
+False
+replace
+StringVar
+SearchDialogBase
+TclError
+ReplaceDialog
+hasattr
+True

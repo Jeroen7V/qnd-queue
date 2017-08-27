@@ -1,0 +1,14 @@
+select
+os
+__all__
+_url_collapse_path_split
+nobody_uid
+nobody
+BaseHTTPServer
+SimpleHTTPServer
+CGIHTTPRequestHandler
+test
+executable
+urllib
+sys
+__version__

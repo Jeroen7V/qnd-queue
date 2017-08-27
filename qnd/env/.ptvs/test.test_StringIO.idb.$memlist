@@ -1,0 +1,13 @@
+cStringIO
+TestGenericStringIO
+buffer
+types
+test_support
+TestBuffercStringIO
+TestStringIO
+StringIO
+test_main
+TestBufferStringIO
+sys
+TestcStringIO
+unittest

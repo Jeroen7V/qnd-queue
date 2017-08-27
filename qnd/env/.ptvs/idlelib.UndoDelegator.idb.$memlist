@@ -1,0 +1,15 @@
+len
+string
+False
+Tk
+Text
+InsertCommand
+UndoDelegator
+Command
+Delegator
+DeleteCommand
+CommandSequence
+__name__
+main
+repr
+True

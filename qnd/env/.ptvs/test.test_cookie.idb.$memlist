@@ -1,0 +1,7 @@
+run_doctest
+check_warnings
+CookieTests
+unittest
+run_unittest
+test_main
+Cookie

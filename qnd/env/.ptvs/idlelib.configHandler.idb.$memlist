@@ -1,0 +1,16 @@
+NoOptionError
+InvalidFgBg
+macosxSupport
+IdleConf
+IdleUserConfParser
+InvalidTheme
+os
+InvalidConfigType
+IdleConfParser
+sys
+InvalidConfigSet
+idleConf
+dumpCfg
+string
+ConfigParser
+NoSectionError

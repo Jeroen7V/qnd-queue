@@ -1,0 +1,17 @@
+NoEOFStringIO
+TimeoutTest
+httplib
+HeaderTests
+HTTPSTimeoutTest
+HOST
+StringIO
+SourceAddressTest
+array
+test_main
+test_support
+BasicTest
+OfflineTest
+TestCase
+FakeSocket
+socket
+unittest

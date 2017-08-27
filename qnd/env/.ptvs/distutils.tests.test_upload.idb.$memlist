@@ -1,0 +1,14 @@
+uploadTestCase
+upload
+PYPIRC_NOPASSWORD
+upload_mod
+Distribution
+PYPIRC_LONG_PASSWORD
+PyPIRCCommandTestCase
+test_suite
+PYPIRC
+support
+os
+FakeOpen
+sys
+unittest

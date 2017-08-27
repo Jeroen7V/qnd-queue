@@ -1,0 +1,5 @@
+netrc
+NetrcParseError
+shlex
+__all__
+os

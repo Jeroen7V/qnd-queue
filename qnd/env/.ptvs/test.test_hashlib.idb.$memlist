@@ -1,0 +1,14 @@
+itertools
+array
+hexstr
+COMPILED_WITH_PYDEBUG
+threading
+sys
+warnings
+_4G
+test_main
+HashLibTestCase
+precisionbigmemtest
+test_support
+hashlib
+unittest

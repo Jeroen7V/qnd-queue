@@ -1,0 +1,8 @@
+dll
+ctypes
+_ctypes_test
+wcslen
+UnicodeTestCase
+StringTestCase
+func
+unittest

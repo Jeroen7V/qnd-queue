@@ -1,0 +1,12 @@
+find_executable
+_spawn_os2
+__revision__
+os
+_spawn_nt
+DistutilsExecError
+DistutilsPlatformError
+spawn
+log
+_spawn_posix
+_nt_quote_args
+sys

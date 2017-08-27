@@ -1,0 +1,7 @@
+_ctrl_handler
+ctypes
+HandlerRoutine
+wintypes
+signal
+SetConsoleCtrlHandler
+ctrl_handler

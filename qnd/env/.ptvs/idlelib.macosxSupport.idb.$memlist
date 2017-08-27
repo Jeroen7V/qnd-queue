@@ -1,0 +1,8 @@
+addOpenEventSupport
+setupApp
+sys
+Tkinter
+_appbundle
+runningAsOSXApp
+overrideRootMenu
+hideTkConsole

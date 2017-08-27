@@ -1,0 +1,15 @@
+md5
+urlparse
+urlopen
+os
+socket
+upload
+platform
+spawn
+DistutilsOptionError
+HTTPError
+StringIO
+standard_b64encode
+Request
+log
+PyPIRCCommand

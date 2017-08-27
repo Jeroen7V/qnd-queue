@@ -1,0 +1,13 @@
+os
+IOError
+open
+sys
+StringVar
+SearchDialogBase
+SearchEngine
+BooleanVar
+hasattr
+Checkbutton
+grep
+GrepDialog
+fnmatch

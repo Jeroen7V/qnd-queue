@@ -1,0 +1,11 @@
+itertools
+os
+test_main
+MmapTests
+import_module
+PAGESIZE
+run_unittest
+TESTFN
+mmap
+re
+unittest

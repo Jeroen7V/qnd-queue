@@ -1,0 +1,11 @@
+find
+_setup
+False
+True
+TclError
+SearchDialogBase
+SearchEngine
+SearchDialog
+hasattr
+find_again
+find_selection

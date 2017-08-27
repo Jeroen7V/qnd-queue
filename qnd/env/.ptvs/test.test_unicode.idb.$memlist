@@ -1,0 +1,8 @@
+UnicodeTest
+struct
+test_support
+codecs
+search_function
+test_main
+sys
+string_tests

@@ -1,0 +1,9 @@
+LM_MAGIC
+hexlify
+nthash
+__all__
+des_encrypt_block
+raw_lmhash
+raw_nthash
+warn
+unicode

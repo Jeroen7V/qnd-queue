@@ -1,0 +1,15 @@
+MixinStrUnicodeTest
+UserList
+MixinStrStringUserStringTest
+struct
+Sequence
+test_support
+CommonTest
+BadSeq1
+string
+MixinStrUserStringTest
+MixinStrUnicodeUserStringTest
+BadSeq2
+BaseTest
+sys
+unittest

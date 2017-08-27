@@ -1,0 +1,11 @@
+TEST_MODE
+HandlerCase
+log
+scrypt_builtin_test
+logging
+_scrypt_test
+warnings
+hash
+scrypt_scrypt_test
+UPASS_TABLE
+PASS_TABLE_UTF8

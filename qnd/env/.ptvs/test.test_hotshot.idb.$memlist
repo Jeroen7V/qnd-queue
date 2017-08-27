@@ -1,0 +1,15 @@
+HotShotTestCase
+shortfilename
+os
+pprint
+ENTER
+test_support
+EXIT
+test_main
+UnlinkingLogReader
+hotshot
+LINE
+gc
+tempfile
+_hotshot
+unittest
