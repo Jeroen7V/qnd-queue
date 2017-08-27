@@ -1,9 +1,0 @@
-CompileTestCase
-test_main
-ParserStackLimitTestCase
-test_support
-parser
-RoundtripLegalSyntaxTestCase
-IllegalSyntaxTestCase
-sys
-unittest

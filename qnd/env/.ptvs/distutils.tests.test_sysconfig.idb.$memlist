@@ -1,9 +1,0 @@
-os
-SysconfigTestCase
-unittest
-sysconfig
-shutil
-support
-TESTFN
-test_suite
-test

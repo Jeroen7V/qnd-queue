@@ -1,7 +1,0 @@
-os
-__all__
-url2pathname
-_pncomp2url
-pathname2url
-urllib
-test

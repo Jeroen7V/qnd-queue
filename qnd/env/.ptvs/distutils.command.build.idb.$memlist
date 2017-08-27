@@ -1,8 +1,0 @@
-__revision__
-os
-build
-Command
-show_compilers
-DistutilsOptionError
-sys
-get_platform

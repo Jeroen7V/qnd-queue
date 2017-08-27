@@ -1,8 +1,0 @@
-NullWriter
-AS_IS
-DumbWriter
-test
-AbstractWriter
-NullFormatter
-sys
-AbstractFormatter

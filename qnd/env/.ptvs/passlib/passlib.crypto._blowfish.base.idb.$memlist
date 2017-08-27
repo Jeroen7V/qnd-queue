@@ -1,7 +1,0 @@
-struct
-BLOWFISH_P
-BLOWFISH_S
-_init_constants
-__all__
-BlowfishEngine
-repeat_string

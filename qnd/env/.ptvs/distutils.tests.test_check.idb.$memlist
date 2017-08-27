@@ -1,7 +1,0 @@
-HAS_DOCUTILS
-check
-DistutilsSetupError
-CheckTestCase
-test_suite
-support
-unittest

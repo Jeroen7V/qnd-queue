@@ -1,8 +1,0 @@
-AnchorCollector
-formatter
-htmllib
-test_support
-DeclCollector
-test_main
-HTMLParserTestCase
-unittest

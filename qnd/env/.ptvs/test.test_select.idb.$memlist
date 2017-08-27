@@ -1,7 +1,0 @@
-SelectTestCase
-select
-os
-test_support
-test_main
-sys
-unittest

@@ -1,8 +1,0 @@
-MimeTypesTestCase
-test_support
-mimetypes
-StringIO
-Win32MimeTypesTestCase
-test_main
-sys
-unittest

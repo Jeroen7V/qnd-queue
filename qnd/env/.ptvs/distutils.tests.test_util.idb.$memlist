@@ -1,7 +1,0 @@
-byte_compile
-DistutilsByteCompileError
-DistutilsPlatformError
-test_suite
-UtilTestCase
-sys
-unittest

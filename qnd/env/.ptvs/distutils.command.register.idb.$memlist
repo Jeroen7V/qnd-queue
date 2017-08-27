@@ -1,9 +1,0 @@
-urlparse
-StringIO
-log
-register
-PyPIRCCommand
-__revision__
-getpass
-warn
-urllib2

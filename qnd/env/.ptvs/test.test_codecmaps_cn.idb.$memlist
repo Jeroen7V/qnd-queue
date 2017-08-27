@@ -1,7 +1,0 @@
-TestGB2312Map
-test_support
-TestGBKMap
-test_main
-TestGB18030Map
-test_multibytecodec_support
-unittest

@@ -1,9 +1,0 @@
-copy
-os
-test_support
-foobar
-TestDefaultDict
-test_main
-tempfile
-defaultdict
-unittest

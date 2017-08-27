@@ -1,9 +1,0 @@
-anydbm
-os
-glob
-test_support
-_delete_files
-_fname
-test_main
-AnyDBMTestCase
-unittest

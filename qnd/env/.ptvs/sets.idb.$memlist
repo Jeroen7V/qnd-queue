@@ -1,8 +1,0 @@
-ifilter
-__all__
-Set
-warnings
-BaseSet
-ImmutableSet
-_TemporarilyImmutableSet
-ifilterfalse

@@ -1,9 +1,0 @@
-this_dir
-lib_tk_test
-os
-test_support
-Tkinter
-runtktests
-test_main
-msg
-unittest

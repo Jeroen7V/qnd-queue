@@ -1,6 +1,0 @@
-sysconfig
-unittest
-UnixCCompiler
-sys
-UnixCCompilerTestCase
-test_suite
