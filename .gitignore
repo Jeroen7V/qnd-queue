@@ -266,3 +266,4 @@ qnd/env/
 
 # exclude database
 qnd/db.sqlite
+database/
