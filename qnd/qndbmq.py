@@ -447,7 +447,7 @@ def post_install():
     except:
         exc_type, exc_value, exc_traceback = sys.exc_info()
         lines = traceback.format_exception(exc_type, exc_value, exc_traceback)
-        print ''.join('!! ' + line for line in lines)  # Log it or whatever here
+        print(''.join('!! ' + line for line in lines))  # Log it or whatever here
         abort(503)
 
 @management.route('/install', methods=['GET'])
@@ -476,7 +476,7 @@ def get_install():
     except:
         exc_type, exc_value, exc_traceback = sys.exc_info()
         lines = traceback.format_exception(exc_type, exc_value, exc_traceback)
-        print ''.join('!! ' + line for line in lines)  # Log it or whatever here
+        print(''.join('!! ' + line for line in lines))  # Log it or whatever here
         abort(503)
 
 @management.route('/api/users', methods=['GET'])
@@ -493,7 +493,7 @@ def get_users():
     except:
         exc_type, exc_value, exc_traceback = sys.exc_info()
         lines = traceback.format_exception(exc_type, exc_value, exc_traceback)
-        print ''.join('!! ' + line for line in lines)  # Log it or whatever here
+        print(''.join('!! ' + line for line in lines))  # Log it or whatever here
         abort(503)
 
 @management.route('/api/users', methods=['POST'])
@@ -520,7 +520,7 @@ def new_user():
     except:
         exc_type, exc_value, exc_traceback = sys.exc_info()
         lines = traceback.format_exception(exc_type, exc_value, exc_traceback)
-        print ''.join('!! ' + line for line in lines)  # Log it or whatever here
+        print(''.join('!! ' + line for line in lines))  # Log it or whatever here
         abort(503)
 
 
@@ -535,7 +535,7 @@ def get_user(id):
     except:
         exc_type, exc_value, exc_traceback = sys.exc_info()
         lines = traceback.format_exception(exc_type, exc_value, exc_traceback)
-        print ''.join('!! ' + line for line in lines)  # Log it or whatever here
+        print(''.join('!! ' + line for line in lines))  # Log it or whatever here
         abort(503)
 
 @app.route('/api/version')
@@ -551,7 +551,7 @@ def get_auth_token():
     except:
             exc_type, exc_value, exc_traceback = sys.exc_info()
             lines = traceback.format_exception(exc_type, exc_value, exc_traceback)
-            print ''.join('!! ' + line for line in lines)  # Log it or whatever here
+            print(''.join('!! ' + line for line in lines))  # Log it or whatever here
             abort(503)
 
 @app.route('/api/msg/<string:queue>', methods=['POST'])
@@ -576,7 +576,7 @@ def post_msg(queue):
     except:
             exc_type, exc_value, exc_traceback = sys.exc_info()
             lines = traceback.format_exception(exc_type, exc_value, exc_traceback)
-            print ''.join('!! ' + line for line in lines)  # Log it or whatever here
+            print(''.join('!! ' + line for line in lines))  # Log it or whatever here
             abort(503)
 
 
@@ -597,7 +597,7 @@ def get_msg(queue):
     except:
         exc_type, exc_value, exc_traceback = sys.exc_info()
         lines = traceback.format_exception(exc_type, exc_value, exc_traceback)
-        print ''.join('!! ' + line for line in lines)  # Log it or whatever here
+        print(''.join('!! ' + line for line in lines))  # Log it or whatever here
         abort(503)
 
 @app.route('/api/clear/<string:queue>', methods=['GET'])
@@ -618,7 +618,7 @@ def clear_msg(queue):
     except:
         exc_type, exc_value, exc_traceback = sys.exc_info()
         lines = traceback.format_exception(exc_type, exc_value, exc_traceback)
-        print ''.join('!! ' + line for line in lines)  # Log it or whatever here
+        print(''.join('!! ' + line for line in lines))  # Log it or whatever here
         abort(503)
 
 @app.route('/api/truncate/<string:queue>', methods=['GET'])
@@ -652,7 +652,7 @@ def truncate_msg(queue):
     except:
         exc_type, exc_value, exc_traceback = sys.exc_info()
         lines = traceback.format_exception(exc_type, exc_value, exc_traceback)
-        print ''.join('!! ' + line for line in lines)  # Log it or whatever here
+        print(''.join('!! ' + line for line in lines))  # Log it or whatever here
         abort(503)
 
 @app.route('/api/msg/<int:id>', methods=['DELETE'])
@@ -678,7 +678,7 @@ def delete_msg(id):
     except:
         exc_type, exc_value, exc_traceback = sys.exc_info()
         lines = traceback.format_exception(exc_type, exc_value, exc_traceback)
-        print ''.join('!! ' + line for line in lines)  # Log it or whatever here
+        print(''.join('!! ' + line for line in lines))  # Log it or whatever here
         abort(503)
 
 def app_thread():
@@ -713,13 +713,13 @@ if __name__ == '__main__':
     while True:
         # keep a loop, if one of the threads gets killed: revive it
         if not appthread.isAlive():
-            print 'App thread dead, starting...'
+            print('App thread dead, starting...')
 
             appthread = threading.Timer(1, app_thread)
             appthread.start()
 
         if not mgmtthread.isAlive():
-            print 'Management thread dead, starting...'
+            print('Management thread dead, starting...')
 
             mgmtthread = threading.Timer(1, management_thread)
             mgmtthread.start()
