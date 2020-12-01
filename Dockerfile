@@ -1,6 +1,7 @@
 FROM python:2.7-alpine
 
 EXPOSE 8888
+EXPOSE 80
 RUN mkdir /database
 VOLUME /database
 
