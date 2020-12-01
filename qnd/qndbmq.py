@@ -269,7 +269,7 @@ def get_view():
     except:
         exc_type, exc_value, exc_traceback = sys.exc_info()
         lines = traceback.format_exception(exc_type, exc_value, exc_traceback)
-        print ''.join('!! ' + line for line in lines)  # Log it or whatever here
+        print(''.join('!! ' + line for line in lines))  # Log it or whatever here
         abort(503)
 
 @management.route('/process', methods=['GET'])
@@ -693,7 +693,7 @@ if __name__ == '__main__':
     key = 'ThisIsMySuperSecretKey'
 
     app.config['SECRET_KEY'] = key
-    app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///db.sqlite'
+    app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:////database/db.sqlite'
     app.config['SQLALCHEMY_COMMIT_ON_TEARDOWN'] = True
     app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = True
 
